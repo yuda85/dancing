@@ -17888,6 +17888,7 @@ p + .pricing-table {
 .product-list li h3,
 .product-list li p {
   padding: 0 20px;
+  text-align: right;
 }
 
 @media (min-width: 992px) {
