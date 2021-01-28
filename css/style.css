@@ -11290,7 +11290,7 @@ table {
 
 .booking-form {
   position: absolute;
-  top: -449px;
+  top: -162px;
   right: 0;
   display: inline-block;
   width: 510px;
@@ -11338,7 +11338,8 @@ table {
   }
 }
 
-.booking-form button {
+.booking-form button,
+.booking-form a {
   display: block;
   width: 100%;
   border: none;
@@ -11346,7 +11347,7 @@ table {
   padding: 21px 17px 25px;
   cursor: pointer;
   display: block;
-  color: #fff;
+  color: #fff !important;
   background: #ff6738;
   font-family: "Open Sans Hebrew", "Open Sans Condensed", sans-serif;
   font-weight: 700;
@@ -11623,7 +11624,7 @@ textarea.form-input {
   }
 }
 
-.thumb_overlay:before {
+/* .thumb_overlay:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -11646,7 +11647,7 @@ textarea.form-input {
   -o-transition: 0.4s all ease;
   -webkit-transition: 0.4s all ease;
   transition: 0.4s all ease;
-}
+} */
 
 @media (min-width: 992px) {
   .desktop .thumb img {
@@ -11663,7 +11664,7 @@ textarea.form-input {
     top: 100%;
   }
   .desktop .thumb:hover img {
-    opacity: 0.28;
+    opacity: 0.68;
   }
   .desktop .thumb:hover .thumb_overlay {
     opacity: 1;
@@ -17772,7 +17773,7 @@ p + .pricing-table {
 
 .fa-facebook,
 .fa-twitter,
-.fa-instagram ,
+.fa-instagram,
 .fa-rss {
   display: block;
   width: 49px;
