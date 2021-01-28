@@ -627,4 +627,13 @@
 			}
 		}
 	});
+
+	if(isMobile) {
+		var date53 = $('#date_5-3').html()
+
+		var date63 = $('#date_6-3').html();
+
+		$('#date_6-3').html(date53)
+		$('#date_5-3').html(date63)
+	}
 }());
