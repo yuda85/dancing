@@ -1794,3 +1794,7 @@ section {
 a {
   color: #cadecb;
 }
+
+.loreal img{
+  max-width: 100%;;
+}
