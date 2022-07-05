@@ -13,7 +13,10 @@
         "statusBar.foreground": "#e7e7e7",
         "statusBarItem.hoverBackground": "#3a2929",
         "titleBar.inactiveBackground": "#1c141499",
-        "titleBar.inactiveForeground": "#e7e7e799"
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "sash.hoverBorder": "#3a2929",
+        "statusBarItem.remoteBackground": "#1c1414",
+        "statusBarItem.remoteForeground": "#e7e7e7"
     },
     "peacock.color": "#1c1414",
     "liveServer.settings.port": 5501
