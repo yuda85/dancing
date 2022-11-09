@@ -464,10 +464,18 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/dancing8.jpeg") top center;
+  background: url("../img/dance-9.jpeg") center center;
   background-size: cover;
   position: relative;
   padding: 0;
+}
+
+@media screen and (max-width: 990px) {
+  #hero {
+    background: url("../img/dance-9-mobile.jpeg") center center;
+    background-size: contain;
+    height: 693px;
+  }
 }
 
 /* #hero:before {
@@ -1795,6 +1803,6 @@ a {
   color: #cadecb;
 }
 
-.loreal img{
-  max-width: 100%;;
+.loreal img {
+  max-width: 100%;
 }
